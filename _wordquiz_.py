@@ -26,8 +26,8 @@ print u" -----------------------------------------------------------------------
 if check_update:
 	update_info = urllib2.urlopen(update_url).read()
 	if int(update_info) > current_version:
-		print u"  发现新版本的 PyWordQuiz。\n"
-		print u"  可以在 https://github.com/twursc/wordquiz 获取新版本。"
+		print u"  发现新版本的 PyWordQuiz。"
+		print u"  可以在 https://github.com/twursc/wordquiz 获取新版本。\n"
 
 sys.stdout.write(u"  正在加载数据库... ")
 
