@@ -10,7 +10,7 @@ quiz_availoptions = 4   # 每个问题提供多少个选项
 sess_review_count = 20   # 每个会话提问多少个单词后开始复习，确定是否熟记
 learn_time = 2   # 每个单词需要提问多少次可确定熟记
 check_update = True   # 是否检查更新
-current_version = 19
+current_version = 20
 update_url = "https://raw.githubusercontent.com/twursc/wordquiz/master/latest_version_code"   # 更新检查地址
 
 import sys
